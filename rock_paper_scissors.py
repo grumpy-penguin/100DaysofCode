@@ -35,35 +35,26 @@ user_choice = int(
 
 computer_choice = random.randint(0, 2)
 
-print("You chose:\n")
-
-if user_choice == 0:
-    print(rock)
-elif user_choice == 1:
-    print(paper)
-elif user_choice == 2:
-    print(scissors)
-
-print("The Computer chose:\n")
-
-if computer_choice == 0:
-    print(rock)
-elif computer_choice == 1:
-    print(paper)
-elif computer_choice == 2:
-    print(scissors)
-
-if user_choice == 0 and computer_choice == 2:
-    print("You Win!!!")
-elif user_choice == 2 and computer_choice == 0:
-    print("You Lose!!!")
-elif user_choice == 2 and computer_choice == 1:
-    print("You Win!!!")
-elif user_choice == 1 and computer_choice == 2:
-    print("You Lose!!!")
-elif user_choice == 1 and computer_choice == 0:
-    print("You Win!!!")
-elif user_choice == 0 and computer_choice == 1:
-    print("You Lose!!!")
+if user_choice >= 3 or user_choice < 0:
+    print("You have made an invalid choice, you lose!!!")
 else:
-    print("Its a draw")
+    print("You chose:\n")
+    print(rps[user_choice])
+
+    print("The Computer chose:\n")
+    print(rps[computer_choice])
+
+    if user_choice == 0 and computer_choice == 2:
+        print("You Win!!!")
+    elif user_choice == 2 and computer_choice == 0:
+        print("You Lose!!!")
+    elif user_choice == 2 and computer_choice == 1:
+        print("You Win!!!")
+    elif user_choice == 1 and computer_choice == 2:
+        print("You Lose!!!")
+    elif user_choice == 1 and computer_choice == 0:
+        print("You Win!!!")
+    elif user_choice == 0 and computer_choice == 1:
+        print("You Lose!!!")
+    else:
+        print("Its a draw")
