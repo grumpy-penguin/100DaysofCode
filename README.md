@@ -14,3 +14,5 @@ Once, I've written and tested these projects, I apply formatting to using the [B
 [Treasure Island](treasure_island.py) a simple game demonstrating the use of control flow.
 
 [Rock Paper Scissors](rock_paper_scissors.py) a simple game to demonstate the use of randomness.
+
+[Password Generator](password_generator.py) a simple passwor dgenerator introducing loops with randomness.
