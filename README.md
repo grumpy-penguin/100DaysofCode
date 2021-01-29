@@ -15,4 +15,4 @@ Once, I've written and tested these projects, I apply formatting to using the [B
 
 [Rock Paper Scissors](rock_paper_scissors.py) a simple game to demonstate the use of randomness.
 
-[Password Generator](password_generator.py) a simple passwor dgenerator introducing loops with randomness.
+[Password Generator](password_generator.py) a simple passwor dgenerator introducing loops with randomness. Version 2 is less verbose and makes use of more functions.

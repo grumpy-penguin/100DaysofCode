@@ -74,10 +74,10 @@ for nr_s in range(1, nr_symbols + 1):
 for nr_n in range(1, nr_numbers + 1):
     password.append(random.choice(numbers))
 
+random.shuffle(password)
+
 password_string = ""
-for item in range(len(password)):
-    rand_len = len(password) - 1
-    rand_item = random.randint(0, rand_len)
-    password_string += password.pop(rand_item)
+for item in password:
+    password_string += item
 
 print("Your password is: " + password_string)
