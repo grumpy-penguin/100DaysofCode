@@ -16,3 +16,5 @@ Once, I've written and tested these projects, I apply formatting to using the [B
 [Rock Paper Scissors](rock_paper_scissors.py) a simple game to demonstate the use of randomness.
 
 [Password Generator](password_generator.py) a simple passwor dgenerator introducing loops with randomness. Version 2 is less verbose and makes use of more functions.
+
+[Maze Escape](maze_escape.py) introducing Python functions, on its own this project might make little sense, but put it into the context of (Reeborgs world maze challenge)[https://reeborg.ca/reeborg.html?lang=en&mode=python&menu=worlds%2Fmenus%2Freeborg_intro_en.json&name=Maze&url=worlds%2Ftutorial_en%2Fmaze1.json] and it will.
