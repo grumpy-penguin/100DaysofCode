@@ -9,12 +9,12 @@ I'm motivated to take part in this challenge, by recent work I've been doing wit
 
 Once, I've written and tested these projects, I apply formatting to using the [Black](https://github.com/psf/black) formatter. The README markdown documented is formatted with [Prettier](https://github.com/prettier/prettier).
 
-[Tip Calculator](tip_calculator.py) a simple calculator demonstrating data types, number manipulation, mathmatical operators and f strings.
+[Tip Calculator](day2/tip_calculator.py) a simple calculator demonstrating data types, number manipulation, mathmatical operators and f strings.
 
-[Treasure Island](treasure_island.py) a simple game demonstrating the use of control flow.
+[Treasure Island](day3/treasure_island.py) a simple game demonstrating the use of control flow.
 
-[Rock Paper Scissors](rock_paper_scissors.py) a simple game to demonstate the use of randomness.
+[Rock Paper Scissors](day4/rock_paper_scissors.py) a simple game to demonstate the use of randomness.
 
-[Password Generator](password_generator.py) a simple passwor dgenerator introducing loops with randomness. Version 2 is less verbose and makes use of more functions.
+[Password Generator](day5/password_generator.py) a simple passwor dgenerator introducing loops with randomness. [Version 2]((day5/password_generatorv2.py)) is less verbose and makes use of more functions.
 
-[Maze Escape](maze_escape.py) introducing Python functions, on its own this project might make little sense, but put it into the context of (Reeborgs world maze challenge)[https://reeborg.ca/reeborg.html?lang=en&mode=python&menu=worlds%2Fmenus%2Freeborg_intro_en.json&name=Maze&url=worlds%2Ftutorial_en%2Fmaze1.json] and it will.
+[Maze Escape](day6/maze_escape.py) introducing Python functions, on its own this project might make little sense, but put it into the context of (Reeborgs world maze challenge)[https://reeborg.ca/reeborg.html?lang=en&mode=python&menu=worlds%2Fmenus%2Freeborg_intro_en.json&name=Maze&url=worlds%2Ftutorial_en%2Fmaze1.json] and it will.
