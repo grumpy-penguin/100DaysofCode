@@ -15,6 +15,8 @@ Once, I've written and tested these projects, I apply formatting to using the [B
 
 [Rock Paper Scissors](day4/rock_paper_scissors.py) a simple game to demonstate the use of randomness.
 
-[Password Generator](day5/password_generator.py) a simple passwor dgenerator introducing loops with randomness. [Version 2]((day5/password_generatorv2.py)) is less verbose and makes use of more functions.
+[Password Generator](day5/password_generator.py) a simple passwor dgenerator introducing loops with randomness. [Version 2](<(day5/password_generatorv2.py)>) is less verbose and makes use of more functions.
 
 [Maze Escape](day6/maze_escape.py) introducing Python functions, on its own this project might make little sense, but put it into the context of (Reeborgs world maze challenge)[https://reeborg.ca/reeborg.html?lang=en&mode=python&menu=worlds%2Fmenus%2Freeborg_intro_en.json&name=Maze&url=worlds%2Ftutorial_en%2Fmaze1.json] and it will.
+
+[Hangman](day7/hangman.py) day 7 consolidates the first weeks lessons, bringing together loops, conditionals, printing and random to create a game of hangman.
