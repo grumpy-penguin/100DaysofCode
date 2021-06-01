@@ -23,4 +23,6 @@ Once, I've written and tested these projects, I apply formatting using the [Blac
 
 [Caesar Cipher](day8/caesar_cipher.py) day 8 a simple caesar cipher, expanding the use of functions.
 
+[Secret Auction](day9/secret_auction.py) day 9, using dictionaries and nesting to create a secret auction.
+
 You could also find my solutions to some of the code challenges at [repl.it](https://repl.it/@grumpypenguin1).
