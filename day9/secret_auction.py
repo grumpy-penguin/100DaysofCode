@@ -15,10 +15,16 @@ def screen_clear():
 
 
 def get_bids(bidder_name, bidder_value):
+    """
+    Creates a dictionary of bids that will be evaluted to determine who made the winning bid.
+    """
     bidder[bidder_name] = bidder_value
 
 
 def calculate_winning_bid():
+    """
+    Determine which bidder holds the winning bid.
+    """
     winning_bid_value = 0
     winning_bidder = ""
     for bid in bidder:
