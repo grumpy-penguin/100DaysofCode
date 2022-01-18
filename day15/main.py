@@ -52,7 +52,7 @@ def check_resources(product):
 
 
 def check_payment(amount, menu_item):
-    """Given the amount of coins inserted and a product. If sufficient """
+    """Given the amount of coins inserted and a product. If sufficient"""
     if amount < MENU[menu_item]["cost"]:
         print("Sorry that's not enough money. Money refunded.")
         return False
