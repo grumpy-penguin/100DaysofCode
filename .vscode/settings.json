@@ -1,5 +1,5 @@
 {
-    "python.formatting.provider": "black",
+    "python.formatting.provider":"black",
     "python.pythonPath": "c:\\Users\\garro\\AppData\\Local\\Programs\\Python\\Python39\\python.exe",
     "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
     "[markdown]": {
@@ -7,5 +7,6 @@
         "editor.quickSuggestions": false,
         "editor.defaultFormatter": "esbenp.prettier-vscode",
         "editor.formatOnSave": true,
-    }
+    },
+    "todo-tree.tree.scanMode": "open files"
 }
