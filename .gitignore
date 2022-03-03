@@ -5,3 +5,4 @@
 **/100DaysOfCode/**
 .vscode/
 **/.vscode/*.json
+workspace.code-workspace
