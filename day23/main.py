@@ -5,7 +5,7 @@ from car import Car
 from scoreboard import Scoreboard
 from time import sleep
 
-list_of_cars=[]
+list_of_cars = []
 screen = Screen()
 screen.setup(width=600, height=600)
 screen.bgcolor("black")
@@ -14,7 +14,7 @@ screen.title("Frog Crossing")
 
 scoreboard = Scoreboard()
 frog = Frog()
-car_garage=Car()
+car_garage = Car()
 
 screen.listen()
 screen.onkeypress(fun=frog.move, key="Up")
