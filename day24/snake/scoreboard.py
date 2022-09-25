@@ -3,7 +3,8 @@ from turtle import Turtle, mode
 
 ALIGNMENT = "center"
 FONT = ("arial", 24, "normal")
-
+# DATA_PATH = "day24\\snake\\data.txt"
+DATA_PATH = ".\\data.txt"
 
 class Scoreboard(Turtle):
     def __init__(self) -> None:
@@ -35,9 +36,9 @@ class Scoreboard(Turtle):
         self.scoreboard()
 
     def store_highscore(self):
-        with open("day24\\snake\\data.txt", "w") as file:
+        with open(DATA_PATH, "w") as file:
             file.write(str(self.score))
 
     def get_highscore(self):
-        with open("day24\\snake\\data.txt", "r") as file:
+        with open(DATA_PATH, "r") as file:
             return int(file.read())
