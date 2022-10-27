@@ -3,7 +3,14 @@
 *.pyc
 
 **/100DaysOfCode/**
+**\100daysofcodelinux
 .vscode/
 **/.vscode/*.json
 workspace.code-workspace
 .vscode/settings.json
+.vscode/settings.json
+day22/pong/.idea/modules.xml
+day22/pong/.idea/pong.iml
+day22/pong/.idea/vcs.xml
+day22/pong/.idea/workspace.xml
+day22/pong/.idea/inspectionProfiles/profiles_settings.xml
