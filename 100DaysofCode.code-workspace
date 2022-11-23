@@ -1,0 +1,38 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"[markdown]": {
+			"editor.defaultFormatter": "esbenp.prettier-vscode",
+			"editor.formatOnSave": true,
+			"editor.unicodeHighlight.ambiguousCharacters": false,
+			"editor.unicodeHighlight.invisibleCharacters": false,
+			"editor.wordWrap": "on",
+			"editor.quickSuggestions": {
+				"comments": "off",
+				"strings": "off",
+				"other": "off"
+			}
+		},
+		"[python]": {
+			"gitlens.codeLens.symbolScopes": [
+				"!Module"
+			],
+			"editor.wordBasedSuggestions": false,
+			"editor.formatOnSave": true,
+			"editor.defaultFormatter": "ms-python.black-formatter"
+		},
+		"todo-tree.tree.scanMode": "open files"
+	},
+	"extensions": {
+		"recommendations": [
+			"gruntfuggly.todo-tree",
+			"ms-python.black-formatter",
+			"ms-python.python",
+			"esbenp.prettier-vscode"
+		]
+	}
+}
