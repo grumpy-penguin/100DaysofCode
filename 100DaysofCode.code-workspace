@@ -25,6 +25,8 @@
 			"editor.formatOnSave": true,
 			"editor.defaultFormatter": "ms-python.black-formatter"
 		},
+		"editor.fontFamily": "Fira Code",
+		"editor.fontLigatures": true,
 		"todo-tree.tree.scanMode": "open files"
 	},
 	"extensions": {
@@ -32,7 +34,8 @@
 			"gruntfuggly.todo-tree",
 			"ms-python.black-formatter",
 			"ms-python.python",
-			"esbenp.prettier-vscode"
+			"esbenp.prettier-vscode",
+			"sourcery.sourcery",
 		]
 	}
 }
