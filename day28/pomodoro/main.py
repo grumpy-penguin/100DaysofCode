@@ -22,6 +22,7 @@ def reset_timer():
     count_pomodoro.config(text="")
     reps = 0
 
+
 # ---------------------------- TIMER MECHANISM ------------------------------- #
 
 
