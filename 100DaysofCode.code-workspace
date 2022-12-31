@@ -27,7 +27,14 @@
 		},
 		"editor.fontFamily": "Fira Code",
 		"editor.fontLigatures": true,
-		"todo-tree.tree.scanMode": "open files"
+		"git.enableCommitSigning": true,
+		"todo-tree.tree.scanMode": "open files",
+		"cSpell.words": [
+			"columnspan",
+			"highlightthickness",
+			"padx",
+			"pady"
+		]
 	},
 	"extensions": {
 		"recommendations": [
