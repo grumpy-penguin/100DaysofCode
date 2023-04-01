@@ -11,5 +11,6 @@
         "editor.defaultFormatter": "esbenp.prettier-vscode",
         "editor.formatOnSave": true,
     },
-    "todo-tree.tree.scanMode": "open files"
+    "todo-tree.tree.scanMode": "open files",
+    "python.analysis.typeCheckingMode": "basic"
 }
